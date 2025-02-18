@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .playlists-section {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            max-width: 900px;
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .playlists-section h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .playlist-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .playlist-container iframe {
+            width: 100%;
+            max-width: 200px;
+            height: 125px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <section id="playlists" class="playlists-section">
+        <h1>Playlists</h1>
+        
+        <div class="playlist-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=50STUWcM0_ufj_oE&amp;list=PL69HNyk6mYNHe-8tkg09MgKrYe43v2ube" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="playlist-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=JTBtXJIumsEV0U4s&amp;controls=0&amp;list=PL69HNyk6mYNEnU337e5DdRoVDjchjVhzp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="playlist-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=rXBgjWInuq4o9roW&amp;controls=0&amp;list=PL69HNyk6mYNHWBlmlCINFM5-4SkRwp4RG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+</body>
+</html>
