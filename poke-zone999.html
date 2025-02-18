@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigate to YouTube Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .nav-button {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+</head>
+<body>
+    <button class="nav-button" onclick="navigateToGallery()">⬅️ Go to Gallery</button>
+
+    <div class="gallery-container" id="gallery" style="display: none;">
+        <div class="elfsight-app-c2b834a6-88f3-4f2e-8c40-dec2d074aa43" data-elfsight-app-lazy></div>
+    </div>
+
+    <script>
+        function navigateToGallery() {
+            document.body.innerHTML = '<div class="gallery-container"><div class="elfsight-app-c2b834a6-88f3-4f2e-8c40-dec2d074aa43" data-elfsight-app-lazy></div></div>';
+        }
+    </script>
+</body>
+</html>
+
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frameset Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+        }
+
+        .frame {
+            height: 100%;
+            border: none;
+        }
+
+        .frame-60 {
+            width: 60%;
+        }
+
+        .frame-40 {
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="pz9991.html" class="frame frame-60"></iframe>
+    <iframe src="pz9992.html" class="frame frame-40"></iframe>
+</body>
+</html>
